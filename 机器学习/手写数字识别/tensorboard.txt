@@ -1,0 +1,5 @@
+Go to terminal, run:
+$ python [yourprogram].py
+$ tensorboard --logdir="./graphs" --port 6006
+Then open your browser and go to: http://localhost:6006/
+Run it
