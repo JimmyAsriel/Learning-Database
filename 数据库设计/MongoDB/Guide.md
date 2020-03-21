@@ -1,0 +1,3 @@
+MongoDB stores it's data in the data directory specified by [--dbpath](http://docs.mongodb.org/manual/reference/configuration-options/#dbpath). It uses a database format so it's not *actual* documents, but there are multiple documents in each file and you cannot easily extract the data from this format yourself.
+
+To read and/or update a document you need to use a MongoDB client, in the same way that you send SQL queries to MySQL through a MySQL client. You probably want to do it programmatically by using one of the [client libraries](http://docs.mongodb.org/ecosystem/drivers/) for your programming language, but there is also a [command-line client](http://docs.mongodb.org/manual/reference/program/mongo/#bin.mongo) if you need to do manual updates.
